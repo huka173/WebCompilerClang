@@ -2,8 +2,16 @@ body {
     background-color: #1E1E1E;
 }
 
+.icon-text {
+    color: #FFF;
+    text-align: center;
+    font-family: Kosugi Maru;
+    font-size: 36px;
+    font-style: normal;
+    line-height: normal;
+}
 
-@media screen and (width < 500px) {
+@media screen and (width <= 500px) {
     .logo {   
         display: flex;
         flex-wrap: nowrap;
@@ -30,15 +38,6 @@ body {
         display: none;
     }
 
-    .icon-text {
-        color: #FFF;
-        text-align: center;
-        font-family: Kosugi Maru;
-        font-size: 36px;
-        font-style: normal;
-        line-height: normal;
-    }
-
 }
 
 @media screen and (width > 500px) {
@@ -52,15 +51,6 @@ body {
         width: 350px;
         height: 108px;
         flex-shrink: 0;
-    }
-
-    .icon-text {
-        color: #FFF;
-        text-align: center;
-        font-family: Kosugi Maru;
-        font-size: 36px;
-        font-style: normal;
-        line-height: normal;
     }
 
     .header {
