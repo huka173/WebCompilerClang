@@ -11,24 +11,28 @@ body {
     line-height: normal;
 }
 
+.logo {
+    display: flex;
+    border-radius: 77.5px;
+    border-right: 10px;
+    gap: 10px;
+    width: 350px;
+    height: 108px;
+    background: #313131;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.header {
+    display: flex;
+}
+
 @media screen and (width <= 500px) {
     .logo {   
-        display: flex;
-        flex-wrap: nowrap;
-        border-radius: 77.5px;
-        border-right: 10px;
-        background: #313131;
-        gap: 10px;
-        width: 350px;
-        height: 108px;
-        height: 108px;
-        flex-shrink: 0;
-        align-items: center;
-        
+        flex-wrap: nowrap;  
     }
 
     .header {
-        display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
@@ -41,20 +45,7 @@ body {
 }
 
 @media screen and (width > 500px) {
-    .logo {
-        display: flex;
-        align-items: center;
-        border-radius: 77.5px;
-        border-right: 10px;
-        background: #313131;
-        gap: 10px;
-        width: 350px;
-        height: 108px;
-        flex-shrink: 0;
-    }
-
     .header {
-        display: flex;
         justify-content: space-between;
     }
 }
