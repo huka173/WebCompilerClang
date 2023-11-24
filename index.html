@@ -24,7 +24,7 @@
         <div class="buttons">
             <div class="button-choice">
                 <select class="select-item">
-                    <option Value="cpp">CPP</option>
+                    <option Value="cpp">CPP</option> 
                     <option Value="c">C</option>
                     <option Value="python">Python</option>
                     <option Value="js">JS</option>
@@ -37,15 +37,17 @@
         <div class="code-frame">
             <div class="input-frame">
                 <i>Input:</i>
-                <textarea class="input-text">
+                <textarea class="input-text" id="input" type="file">
                 </textarea>
             </div>
             <div class="output-frame">
                 <i>Output:</i>
-                <textarea class="output-text" readonly>
+                <textarea class="output-text" id="output" readonly>
                 </textarea>
             </div>
         </div>
     </div>
+    <script src="./scripts/index.js"></script>
+    <script src="./scripts/runButton.js"></script>
 </body>
 </html>

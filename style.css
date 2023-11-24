@@ -1,6 +1,5 @@
 body {
     background-color: #686868;
-    height: 100%;
 }
 
 .icon-text {
@@ -28,6 +27,10 @@ body {
     display: flex;
 }
 
+.compile-frame {
+    height: 696px;
+}
+
 .buttons {
     padding-top: 1%;
     display: flex;
@@ -43,7 +46,7 @@ body {
     background-color: #404040;
     color: white;
     font-family: Kosugi Maru;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .button-run {
@@ -68,15 +71,17 @@ body {
 .code-frame {
     padding-top: 1%;
     width: 100%;
-    height: 690px;
-    
+    height: 100%;
 }
 
 .input-text, .output-text {
     width: 90%;
-    height: 85%;
+    height: 80%;
     resize: none;
     white-space: nowrap;
+    font-family: monospace;
+    background-color: #000000;
+    color: white;
 }
 
 .input-frame, .output-frame {
@@ -87,7 +92,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 50%;
-    height: 90%;
+    height: 100%;
     background-color: #3D3D3D;
     border-radius: 25px;
     margin: 1%;
@@ -130,7 +135,7 @@ body {
     }
 
     .input-frame, .output-frame {
-        font-size: 30px;
+        font-size: 25px;
         width: 100%;
     }
 
