@@ -1,0 +1,45 @@
+body {
+    background-color: #686868;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.logo {
+    color: #FFF;
+    font-family: Kosugi Maru;
+    font-size: 25px;
+    font-style: normal;
+    line-height: normal;
+    border-radius: 77.5px;
+    border-right: 10px;
+    width: 350px;
+    height: 108px;
+    background: #313131;
+}
+
+.list {
+    font-family: Kosugi Maru;
+    font-size: 35px;
+    color: #FFF;
+}
+
+.link {
+    font-family: Kosugi Maru;
+    font-size: 35px;
+    color: #FFF;
+}
+
+.github {
+    width: 50px;
+    height: 50px;
+}
+
+.telegram {
+    width: 50px;
+    height: 50px;
+}

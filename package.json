@@ -1,3 +1,16 @@
 {
-  "type": "commonjs"
+  "type": "commonjs",
+  "name": "webcompiler",
+  "description": "Web compiler on javascript.",
+  "version": "1.0.0",
+  "main": "./src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "huka",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
 }

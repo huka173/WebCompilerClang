@@ -6,7 +6,7 @@ body {
     color: #FFF;
     text-align: center;
     font-family: Kosugi Maru;
-    font-size: 36px;
+    font-size: 25px;
     font-style: normal;
     line-height: normal;
 }
@@ -36,19 +36,6 @@ body {
     display: flex;
 }
 
-.select-item {
-    border-radius: 35px;
-    padding: 20px;
-    width: 258px;
-    height: 75px;
-    appearance: none;
-    text-align: center;
-    background-color: #404040;
-    color: white;
-    font-family: Kosugi Maru;
-    font-size: 30px;
-}
-
 .button-run {
     background-color: #535353;
     border-radius: 50%;
@@ -58,6 +45,7 @@ body {
         5px 0px 0px #2D2D2D,
         6px 0px 0px #000000;
     transition: .10s;
+    border-color: rgba(0, 0, 0, 0);
 }
 
 .button-run:active {
